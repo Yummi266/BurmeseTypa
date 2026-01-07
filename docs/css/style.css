@@ -595,13 +595,13 @@
 
   /* ---------- Header & Nav ---------- */
   header {
-    flex-direction: column;
+    display:column;
     gap: 12px;
     padding: 16px;
   }
 
   nav {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     gap: 10px;
     width: 50%;
@@ -738,6 +738,7 @@
     padding: 20px;
   }
 }
+
 
 
 
