@@ -613,7 +613,7 @@
   nav .cta-btn {
     display:flex;
     margin: 0;
-    width: 10%;
+    width: 40%;
     padding: 12px;
   }
 
@@ -740,6 +740,7 @@
     padding: 20px;
   }
 }
+
 
 
 
