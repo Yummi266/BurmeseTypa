@@ -247,7 +247,6 @@
   color: #fff;
   text-align: center;
   margin-bottom: 50px;
-  background-size: cover;
 }
 
 .events-hero h1 {
@@ -666,12 +665,18 @@
     grid-template-columns: 1fr;
   }
 
-  .events-hero {
-    margin: 20px 0;
+   .events-hero {
+    min-height: 260px;         
     padding: 40px 18px;
     border-radius: 14px;
-    background-position: center;
+
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;             
+    flex-direction: column;
+    justify-content: center;
   }
 
   .events-hero h1 {
@@ -733,6 +738,7 @@
     padding: 20px;
   }
 }
+
 
 
 
