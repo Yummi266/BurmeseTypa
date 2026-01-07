@@ -589,20 +589,20 @@
   }
 
   section {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px ;
+    padding-right: 20px ;
   }
 
   /* ---------- Header & Nav ---------- */
   header {
-    flex-direction: column;
+    flex-direction: row;
     gap: 12px;
     padding: 16px;
   }
 
   nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     width: 100%;
     text-align: center;
@@ -611,7 +611,7 @@
   nav a,
   nav .cta-btn {
     margin: 0;
-    width: 100%;
+    width: 50%;
     padding: 12px;
   }
 
@@ -738,6 +738,7 @@
     padding: 20px;
   }
 }
+
 
 
 
