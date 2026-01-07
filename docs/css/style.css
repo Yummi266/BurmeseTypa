@@ -601,18 +601,19 @@
   }
 
   nav {
-    display: inline-block;
+    display: flex;
     flex-direction: row;
     gap: 10px;
-    width: 50%;
+    width: 100%;
     text-align: center;
     justify-content: center;
   }
 
   nav a,
   nav .cta-btn {
+    display:flex;
     margin: 0;
-    width: 20%;
+    width: 10%;
     padding: 12px;
   }
 
@@ -624,7 +625,7 @@
   p,
   .lead {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.6px;
   }
 
   /* ---------- Hero ---------- */
@@ -739,6 +740,7 @@
     padding: 20px;
   }
 }
+
 
 
 
