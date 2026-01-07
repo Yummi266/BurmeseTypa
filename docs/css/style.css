@@ -606,7 +606,6 @@
     gap: 10px;
     width: 100%;
     text-align: center;
-    justify-content: center;
   }
 
   nav a,
@@ -739,6 +738,7 @@
     padding: 20px;
   }
 }
+
 
 
 
