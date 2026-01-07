@@ -681,7 +681,7 @@
   /* ---------- About Page (CRITICAL FIXES) ---------- */
   .about-section,
   .values-grid {
-    min-width: 100% !important;
+    min-width: 100% ;
   }
 
   .about-grid {
@@ -733,5 +733,6 @@
     padding: 20px;
   }
 }
+
 
 
