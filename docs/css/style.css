@@ -604,14 +604,15 @@
     display: inline-block;
     flex-direction: row;
     gap: 10px;
-    width: 50%;
+    width: 100%;
     text-align: center;
+    justify-content: center;
   }
 
   nav a,
   nav .cta-btn {
     margin: 0;
-    width: 50%;
+    width: 20%;
     padding: 12px;
   }
 
@@ -683,7 +684,7 @@
     font-size: 28px;
   }
 
-  /* ---------- About Page (CRITICAL FIXES) ---------- */
+  /* ---------- About Page  ---------- */
   .about-section,
   .values-grid {
     min-width: 100% ;
@@ -738,6 +739,7 @@
     padding: 20px;
   }
 }
+
 
 
 
